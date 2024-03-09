@@ -1,0 +1,243 @@
+/* Header Nav Bar */
+.header {
+    height: 15vh;
+    width: 100%;
+    top: 0;
+    left: 0;
+    /* background-color: red; */
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    font-size: 1.6rem;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.header ul {
+    /* position: relative; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 4rem;
+}
+
+.header li {
+    list-style: none;
+}
+
+.header ul li a {
+    /* position: relative; */
+    text-decoration: none;
+    padding: 1rem 1rem;
+    margin: 0 1rem;
+}
+
+.header-link {
+    cursor: pointer;
+    color: white;
+    border-radius: 1rem;
+    transition: background 0.1s ease-out;
+}
+
+.header-link:hover {
+    background-color: white;
+    /* transition: 200ms; */
+    color: black;
+}
+
+/* Logo */
+.logo {
+    height: 15vh;
+    margin-left: 1.5rem;
+    color: white;
+}
+
+/* Introduction */
+body {
+    background-color: #222;
+    height: 1500px;
+    color: white;
+    /* margin: 0 10rem; */
+}
+
+.introduction {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+main {
+    margin: 0 10rem;
+}
+
+/* Profile Container */
+
+.profile-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    gap: 2rem;
+    margin: 2rem 2rem;
+
+}
+
+.pro-pic {
+    width: 15rem;
+    height: 15rem;
+    object-fit: cover;
+    border-radius: 7.5rem;
+    flex: 1;
+}
+
+.name-social {
+    /* font-size: 3rem;
+    font-family: "Anta", sans-serif; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.name {
+    font-size: 4rem;
+    font-family: "Anta", sans-serif;
+    font-weight: 600;
+    flex: 2;
+}
+
+.social-link {
+    display: flex;
+    justify-content: space-between;
+}
+
+.social-link a {
+    text-decoration: none;
+    margin: 1.5rem 0.2rem;
+    transition: background 0.1s ease-out;
+}
+
+.social-ava {
+    width: 2rem;
+    height: 2rem;
+    padding: 0.2rem;
+    /* color: white; */
+    opacity: 0.7;
+    border-radius: 0.2rem;
+}
+
+.social-ava:hover {
+    transition: 200ms;
+    background: white;
+}
+
+
+
+/* Side bar */
+aside {
+    display: flex;
+    background-color: rgb(27, 18, 18, 0.5);
+    position: sticky;
+    top: 0;
+    width: 0px;
+    overflow: hidden;
+    height: auto;
+    transition: 0.3s ease width;
+    float: left;
+}
+
+.aside-container {
+    padding: 2rem 0rem;
+    display: flex;
+    flex-direction: column;
+}
+
+aside.opened {
+    width: auto;
+    overflow: hidden;
+}
+
+/* Aside Button */
+.scroll-buttons {
+    width: 100%;
+    padding: 20px 20px;
+    color: white;
+    background-color: rgb(27, 18, 18, 0.5);
+    /* border: none; */
+    border-width: 1px 0px;
+    border-style: solid;
+    border-color: white;
+    margin: 0px;
+    font-size: 1rem;
+    transition: background 0.1s ease-out;
+}
+
+.scroll-buttons:hover {
+    background: #efefef;
+    color: black;
+    cursor: pointer;
+}
+
+.scroll-buttons:active {
+    background: #eee;
+}
+
+/** Button */
+#sidebar-button {
+    position: sticky;
+    /* display: inline; */
+    /* float: top; */
+    left: 0;
+    top: 0;
+
+    width: 30px;
+    height: 30px;
+    margin: 0;
+    padding: 0;
+
+    color: white;
+    background: rgb(27, 18, 18, 0.5);
+    /* background: #fff; */
+    border: 1px solid #ccc;
+    outline: none;
+
+    font-size: 20px;
+    font-weight: bold;
+
+    border-radius: 4px;
+    box-shadow: 0 1px 2px 0 rgb(0 0 0 / 0.05);
+
+    transition: background 0.1s ease-out;
+    cursor: pointer;
+}
+
+.sidebar-button-div {
+    position: sticky;
+    display: inline;
+}
+
+#sidebar-button:hover {
+    background: #efefef;
+    color: black;
+}
+
+#sidebar-button:active {
+    background: #eee;
+}
+
+/* About me section */
+.about-me {
+    width: 300px;
+    top: 0;
+}
+
+.me {
+    overflow: hidden;
+}
+
+/* Educations */
+.educations {
+    background-color: #FFD700;
+    color: black;
+    margin: 10rem 0;
+    padding: 2rem 2rem;
+}
