@@ -1,111 +1,118 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Khang Vo Personal Website</title>
-        <link rel="stylesheet" href="style.css">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Anta&display=swap" rel="stylesheet">
-        <script src="script.js" type="text/javascript"></script>
 
-    </head>
+<head>
+    <title>Khang Vo Personal Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anta&display=swap" rel="stylesheet">
+    <script src="script.js" type="text/javascript"></script>
 
-    <body>
-        <div class="header">
-            <li><a href="index.html">
+</head>
+
+<body>
+    <div class="header">
+        <li><a href="index.html">
                 <img src="./images/Khang Logo.png" alt="" class="logo">
             </a></li>
-            <ul>
-                <li><a href="index.html" class='header-link'>Home</a></li>
-                <li><a href="Khang_Vo_Resume__Spring_2024_ (1).pdf" class='header-link' target="_blank">Resume</a></li>
-                <li><a href="projects.html" class='header-link'>Projects</a></li>
-                <li><a href="" class='header-link'>Contact</a></li>
+        <ul>
+            <li><a href="index.html" class='header-link'>Home</a></li>
+            <li><a href="Khang_Vo_Resume__Spring_2024_ (1).pdf" class='header-link' target="_blank">Resume</a></li>
+            <li><a href="projects.html" class='header-link'>Projects</a></li>
+            <!-- <li><a href="contact.html" class='header-link'>Contact</a></li> -->
 
+        </ul>
+    </div>
+
+    <div class="sidebar-button-div">
+        <button id="sidebar-button" data-testid="sidebar-button">›››</button>
+    </div>
+
+    <aside id="sidebar" data-testid="sidebar">
+        <div class="aside-container">
+            <button class="scroll-buttons" id="scroll-intro">INTRODUCTION</button>
+            <button class="scroll-buttons" id="scroll-edu">EDUCATION</button>
+        </div>
+    </aside>
+
+    <main>
+        <div class="introduction" id="introduction">
+            <div class="profile-container">
+                <div class="name-social">
+                    <div class="name">Khang Vo</div>
+                    <div class="social-link">
+                        <a href="https://www.linkedin.com/in/khangxvo/" target="_blank">
+                            <img src="./images/linkedin_3992560.png" alt="" class="social-ava">
+                        </a>
+                        <a href="https://mail.google.com/mail/u/?authuser=user@gmail.com" target="_blank">
+                            <img src="./images/icons8-gmail-64.png" alt="" class="social-ava">
+                        </a>
+                        <a href="https://github.com/khangxvo" target="_blank">
+                            <img src="./images/github.png" alt="" class="social-ava">
+                        </a>
+                        <a href="https://www.instagram.com/khangaroo_vo/" target="_blank">
+                            <img src="./images/instagram.png" alt="" class="social-ava">
+                        </a>
+                        <a href="https://www.facebook.com/profile.php?id=100010163292628" target="_blank">
+                            <img src="./images/facebook.png" alt="" class="social-ava">
+                        </a>
+                    </div>
+                </div>
+                <div>
+                    <img src='./images/linkin ava.JPG' alt="" class="pro-pic">
+                </div>
+
+            </div>
+        </div>
+
+        <div>
+            <div class="introduction">
+                <div class="profile-container">
+                    <div>
+                        <img src="./images/funny_me.jpeg" alt="" class="pro-pic">
+                    </div>
+
+                    <div class="about-me">
+                        <h1>About Me</h1>
+                        <p>I am a sophomore studying Computer Science at UC Berkeley. I enjoy hiking with friends,
+                            having conversation, and comtemplate nature. I have experience in fullstack development,
+                            data analysis, and software engineering. If you are planning for a project, I would like to
+                            be a part of it.</p>
+                        <!-- <button text="contact me">Contact me
+                            <a href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox"></a>
+                        </button> -->
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="educations" id="educations">
+            <h1>Educations</h1>
+            <ul>
+                <h2>University of Caluforia, Berkeley</h2>
+                <p>&#40 Bachelor of Art: Computer Science &#41</p>
+
+                <h3>Spring 2024:</h3>
+                <li>CS 70: Discrete Mathematics and Probability Theory</li>
+                <li>Data C8: Foundations of Data Science</li>
+                <li>CS 198: Fullstack Development Introduction</li>
+
+                <h3>Fall 2023</h3>
+                <li>CS 61B: Data Structures</li>
+                <li>Math 54: Linear Algebra and Differential Equations</li>
+
+                <h3>Spring 2023</h3>
+                <li>CS 61A: The Structure and Interpretation of COmputer Programs</li>
+                <li>MATH 1B: Calculus II</li>
             </ul>
         </div>
+    </main>
 
-        <div class="sidebar-button-div">
-            <button id="sidebar-button" data-testid="sidebar-button">›››</button>
-        </div>
 
-        <aside id="sidebar" data-testid="sidebar">
-            <div class="aside-container">
-                <button class="scroll-buttons" id="scroll-intro">INTRODUCTION</button>
-                <button class="scroll-buttons" id="scroll-edu">EDUCATION</button>
-            </div>
-        </aside>
-    
-        <main>
-            <div class="introduction" id="introduction">
-                <div class="profile-container">
-                    <div class="name-social">
-                        <div class="name">Khang Vo</div>
-                        <div class="social-link">
-                            <a href="https://www.linkedin.com/in/khangxvo/" target="_blank">
-                                <img src="./images/linkedin_3992560.png" alt="" class="social-ava">
-                            </a>
-                            <a href="https://github.com/khangxvo" target="_blank">
-                                <img src="./images/github.png" alt=""
-                                class="social-ava">
-                            </a>
-                            <a href="https://www.instagram.com/khangaroo_vo/" target="_blank">
-                                <img src="./images/instagram.png" alt="" class="social-ava">
-                            </a>
-                            <a href="https://www.facebook.com/profile.php?id=100010163292628" target="_blank">
-                                <img src="./images/facebook.png" alt="" class="social-ava">
-                            </a>
-                        </div>
-                    </div>
-                    <div>
-                        <img src='./images/linkin ava.JPG' alt=""
-                        class="pro-pic">
-                    </div>
-    
-                </div>
-            </div>
 
-            <div>
-                <div class="introduction">
-                    <div class="profile-container">
-                        <div>
-                            <img src="./images/funny_me.jpeg" alt="" class="pro-pic">
-                        </div>
+</body>
 
-                        <div class="about-me">
-                            <h1>About Me</h1>
-                            <p>I am a sophomore studying Computer Science at UC Berkeley. I enjoy hiking with friends, having conversation, and comtemplate nature. I have experience in fullstack development, data analysis, and software engineering. If you are planning for a project, I would like to be a part of it.</p>
-                            <button>Contact me</button>
-                        </div>
 
-                    </div>
-                </div>
-            </div>
-
-            <div class="educations" id="educations">
-                <h1>Educations</h1>
-                <ul>
-                    <h2>University of Caluforia, Berkeley</h2>
-                    <p>&#40 Bachelor of Art: Computer Science &#41</p>
-
-                    <h3>Spring 2024:</h3>
-                    <li>CS 70: Discrete Mathematics and Probability Theory</li>
-                    <li>Data C8: Foundations of Data Science</li>
-                    <li>CS 198: Fullstack Development Introduction</li>
-
-                    <h3>Fall 2023</h3>
-                    <li>CS 61B: Data Structures</li>
-                    <li>Math 54: Linear Algebra and Differential Equations</li>
-
-                    <h3>Spring 2023</h3>
-                    <li>CS 61A: The Structure and Interpretation of COmputer Programs</li>
-                    <li>MATH 1B: Calculus II</li>
-                </ul>
-            </div>
-        </main>
-        
-
-        
-    </body>
-
-    
 </html>
